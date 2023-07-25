@@ -1,0 +1,6 @@
+use rgtmongodb
+db.clients.insertOne({name:'pedro',lastname:'escamoso',d_i:'123123',cel:'0989123',email:'pedro@gmail.com',address:'Avenue Oxford'})
+db.admin.insertOne({username:'angelito',password:'angelito123'})
+
+db.clients.find()
+db.admin.find()
